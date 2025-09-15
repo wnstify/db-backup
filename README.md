@@ -29,7 +29,7 @@ Installation
 
 1.  Download the script:
     
-        wget https://raw.githubusercontent.com/yourusername/mysql-backup/main/db_backup.sh
+        wget https://raw.githubusercontent.com/wnstify/db-backup/refs/heads/main/db_backup.sh
         chmod +x db_backup.sh
     
 2.  (Optional) Create a credentials file to avoid password prompts:
