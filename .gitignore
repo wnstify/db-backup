@@ -1,22 +1,118 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# --- OS / System files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+*.swp
+*.swo
+*.tmp
+
+# --- Logs & Runtime files ---
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.gz
+*.tgz
+
+# --- Environment & Secrets ---
+# Ignore real secrets
+.env
+.env.*
+# Keep templates in git
+!*.example
+!*.dist
+!*.sample
+
+# --- Credentials / Certificates ---
+*.key
+*.pem
+*.crt
+*.p12
+*.cer
+*.der
+*.auth
+*.token
+*.credentials
+
+# --- Dependency directories ---
+node_modules/
+vendor/
+bower_components/
+jspm_packages/
+
+# --- Build output / cache ---
+dist/
+build/
+out/
+.cache/
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+.eggs/
+*.class
+
+# --- Package managers (adjust as needed) ---
+# If you want deterministic builds, remove these ignores
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+composer.lock
+Pipfile.lock
+poetry.lock
+
+# --- IDE / Editor settings ---
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# --- Docker / Vagrant ---
+.docker/
+.dockerignore
+docker-compose.override.yml
+.vagrant/
+.vagrant.d/
+
+# --- Backups ---
+*.bak
+*.orig
+*.old
+*.sql
+*.sql.gz
+
+# --- Coverage / Test outputs ---
+coverage/
+.nyc_output/
+*.lcov
+junit.xml
+
+# --- WordPress specific ---
+wp-content/cache/
+wp-content/backups/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/mu-plugins/cache/
+wp-content/aios-firewall/
+wp-content/wflogs/
+wp-content/debug.log
+wp-config.php
+wp-config-*.php
+
+# --- Misc project-specific ignores ---
+tmp/
+temp/
+cache/
+storage/
+uploads/
+
+# ------------------------------------------------------------------------------
+# SAFE NOTES:
+# - `.env` secrets stay ignored; `.env.example` is tracked.
+# - Lockfiles are ignored here; delete those lines if you prefer committing them.
+# - WordPress uploads are ignored (big/binary content shouldn’t be in Git).
+# - wp-config.php is ignored (contains DB creds). Use wp-config-sample.php instead.
+# ------------------------------------------------------------------------------
