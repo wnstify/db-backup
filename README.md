@@ -77,7 +77,7 @@ For more advanced features, check out our **Premium Backup Solution**:
 
 *   **Enhanced Security**: AES-256 encryption for all backups
 *   **Multi-destination Support**: Upload to S3, Google Drive, FTP, SFTP
-*   **Notification System**: Email, SMS, or Slack alerts
+*   **Notification System**: NTFY push notifications
 *   **Integrity Verification**: Automatic backup validation
 *   **Cron Wizard**: Easy scheduling interface
 *   **Remote Upload Wizard**: Simple configuration for cloud storage
