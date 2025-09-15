@@ -15,7 +15,7 @@ Features
 *   Safe authentication using external config file
 *   Intelligent compression (uses pigz for multi-threaded compression if available)
 *   Comprehensive logging
-*   Lock mechanism to prevent concurrent runs
+*   Lock mechanism to prevent concurrent runs 
 
 Requirements
 ------------

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env bash 
 # Standard MySQL/MariaDB Backup Script (no encryption, no remote, no notifications)
 # Creator: Simon Gajdosik (Webnestify)
 # Disclaimer: Provided “AS IS”, without any warranty, express or implied.
